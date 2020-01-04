@@ -1,4 +1,5 @@
 -cp src
 -cp test
+-lib hxnodejs
 -main Test
---interp
+-js bin/app.js
