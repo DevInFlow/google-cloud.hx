@@ -1,11 +1,11 @@
 # Google Cloud NodeJS Service API haxe extern
 
-Compute
+### Compute ###
 - [ ] App Engine Admin
 - [ ] Cloud User Account
 - [ ] Compute Engine
 - [ ] Compute Engine Instance Group Updater
-Storage and database
+### Storage and database ###
 - [ ] Cloud Bigtable Admin
 - [ ] Cloud Bigtable Data
 - [ ] Cloud Datastore
@@ -13,22 +13,23 @@ Storage and database
 - [ ] Cloud Spanner
 - [ ] Cloud SQL Admin
 - [ ] Cloud Storage
-Networking
+
+### Networking ###
 - [ ] Cloud DNS
-Big data
+### Big data ###
 - [ ] Big Query
 - [ ] Cloud Dataflow
 - [ ] Cloud Dataproc
 - [ ] Gemonics
 - [ ] Cloud Pub/Sub
-Machine learning
+### Machine learning ###
 - [ ] Cloud Neutral Language
 - [ ] Cloud Speech
 - [ ] Cloud Translation
 - [ ] Cloud Video Intelligence
 - [ ] Cloud Vision
 - [ ] Dataflow Enterprise Edition
-Management tool
+### Management tool ###
 - [ ] Cloud Billing
 - [ ] Cloud Runtime Config
 - [ ] Cloud Build
@@ -38,6 +39,7 @@ Management tool
 - [ ] Stackdrive Logging
 - [ ] Stackdrive Monitoring
 - [ ] Stackdrive Trace
-Identity and security
+### Identity and security ###
 - [ ] Identity and Access Management
 - [ ] Resource Manager
+
