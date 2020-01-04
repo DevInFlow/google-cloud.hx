@@ -1,3 +1,3 @@
-package google.cloud.storage.global;
+package google.cloud.storage.global.bucket;
 
 typedef SetBucketMetadataResponse = {?apiResponse:Dynamic}

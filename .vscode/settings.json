@@ -1,0 +1,12 @@
+{
+    "triggerTaskOnSave.tasks": {
+        "build": [
+            "**/*.hx",
+            "**/*.hxml"
+        ],
+        "test": [
+        ]
+    },
+    "triggerTaskOnSave.selectedTask": "build",
+    "triggerTaskOnSave.showNotifications": false
+}

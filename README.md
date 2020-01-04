@@ -12,7 +12,7 @@
 - [ ] Cloud Firestore
 - [ ] Cloud Spanner
 - [ ] Cloud SQL Admin
-- [ ] Cloud Storage
+- [x] Cloud Storage
 
 ### Networking ###
 - [ ] Cloud DNS

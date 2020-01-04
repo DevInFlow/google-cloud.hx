@@ -56,7 +56,7 @@ import js.node.stream.Writable;
 	public function move(destination:EitherType<String, EitherType<Bucket, File>>, ?options:MoveCallback):Promise<MoveResponse>;
 	public function rotateEncryptionKey(?options:EitherType<RotateEncryptionKeyOptions, EitherType<String, Buffer>>,
 		?callback:RotateEncryptionKeyCallback):Promise<File>;
-	public function save(data:Dynamic, ?options:SaveOptions, ?callback:SaveCallback):Promise<Dynamic>;
+	public function save(data:Dynamic, ?options:SaveOptions, ?callback:SaveCallback):Promise<Void>;
 	public function setEncryptionKey(?encryptionKey:EitherType<String, Buffer>):Promise<File>;
 	public function setMetadata(?metadata:Dynamic, ?options:SetFileMetadataOptions, ?callback:SetFileMetadataCallback):Promise<SetFileMetadataResponse>;
 	public function setStorageClass(storageClass:String, ?options:SetStorageClassOptions, ?callback:SetStorageClassCallback):Promise<SetStorageClassResponse>;

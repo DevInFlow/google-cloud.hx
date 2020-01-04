@@ -1,4 +1,4 @@
-package google.cloud.storage.global;
+package google.cloud.storage.global.bucket;
 
 import google.cloud.storage.File;
 import js.lib.Error;
