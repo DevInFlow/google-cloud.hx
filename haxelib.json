@@ -1,0 +1,15 @@
+{
+	"name": "google-cloud.hx",
+	"license": "MIT",
+	"tags": ["extern"],
+	"description": "Google Cloud NodeJS Service API haxe extern",
+	"contributors": [
+    	"varadig"
+	],
+	"releasenote": "The first target will be nodejs.",
+	"version": "0.0.1",
+	"url": "https://github.com/DevInFlow/google-cloud.hx",
+	"classPath": "src",
+
+	"dependencies": { }
+}
