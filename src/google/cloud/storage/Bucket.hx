@@ -20,6 +20,7 @@ import js.Promise;
 		?options:CreateNotificationOptions, ?callback:CreateNotificationCallback):Promise<CreateNotificationResponse>;
 	public function delete(?options:DeleteBucketOptions, ?callback:DeleteBucketCallback):Promise<DeleteBucketResponse>;
 	public function deleteFiles(?query:DeleteFilesOptions, ?callback:DeleteFilesCallback):Promise<Void>;
+	public function getFiles(?options:GetFilesOptions, ?callback:GetFilesCallback):Promise<GetFilesResponse>;
 	public function getLabels(?options:{?userProject:String}, ?callback:GetLabelsCallback):Promise<GetLabelsResponse>;
 	public function getMetadata(?options:GetBucketMetadataOptions, ?callback:GetBucketMetadataCallback):Promise<GetBucketMetadataResponse>;
 	public function getNotifications(?options:GetNotificationsOptions, ?callback:GetNotificationsCallback):Promise<GetNotificationsResponse>;
