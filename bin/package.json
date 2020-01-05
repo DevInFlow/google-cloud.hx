@@ -1,0 +1,15 @@
+{
+  "name": "google-cloud-nodejs-api-teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "pm2-runtime start ecosystem.config.js --env development"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^4.2.0",
+    "pm2": "^4.2.1"
+  }
+}

@@ -13,7 +13,7 @@ import google.cloud.storage.global.*;
 	var WRITER_ROLE = "WRITER";
 }
 
-@:jsRequire("@google-cloud/storage") extern class Storage {
+@:jsRequire("@google-cloud/storage","Storage") extern class Storage {
 	public function new(?options:StorageOptions);
 
 	public function bucket(name:String, ?options:{?kmsKeyName:String, ?userProject:String}):Bucket;
