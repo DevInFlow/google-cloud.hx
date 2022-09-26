@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/storage": "^4.2.0",
-    "pm2": "^4.2.1"
+    "pm2": "^5.2.0"
   }
 }
